@@ -1,0 +1,72 @@
+backend setup start 
+npm init -y
+
+npm  install bcryptjs cloudinary cookie-parser cors dotenv express jsonwebtoken mongoose multer stripe
+
+npm install nodemon --save-dev
+
+5:45
+
+mongodb+srv://pratikshahatkar2006_db_user:MBJuzXYqM4eHyx9C@cluster0.7j4p4zp.mongodb.net/?appName=Cluster0
+
+
+create project then cluster select free plan google cloud , driver method 
+then go to network access IP list edit Access list entry as 0.0.0.0/0
+
+db.js - connectDB
+
+login and register api working
+
+verify user logined in or not 
+loged in -> provide user details <- user id <- token  -> added in the cookies
+token decode require middleware -- auth user --> userauthentication middleware
+
+6:52
+
+sellerAuth code 
+sellercontroller code 
+sellerRoute
+
+productSchema - model
+
+image upload cloudinary
+
+product Controller 
+routes
+
+cart controller
+routes
+
+address schema 
+address controller 
+routes 
+
+7.47
+OrderModel
+orderController 
+order Route
+
+backend completed 8:10
+axios can make the api calls
+npm install axios in client 
+
+
+add product ,product list , order axios api connect
+8:35
+
+8:44 
+add product is not working there is cloudinary error occurs
+now working 
+
+etaddrinfo ENOTFOUND ac-ffepepb-shard-00-00.7j4p4zp.mongodb.net
+getaddrinfo ENOTFOUND ac-ffepepb-shard-00-00.7j4p4zp.mongodb.net
+getaddrinfo ENOTFOUND ac-ffepepb-shard-00-00.7j4p4zp.mongodb.net
+ this error comes due to newtwork connection
+
+ 9:10
+
+addaddress
+ getaddress
+ 9:23 -- placeorder : cod
+
+ 9:36 -- payment gateway
