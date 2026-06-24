@@ -40,7 +40,8 @@ export const instance = new Razorpay({
 
 
 //Allow multiple origins
-const  allowedOrigins = ['http://localhost:5173' , 'https://greencart-frontend-one-lyart.vercel.app']
+const  allowedOrigins = ['http://localhost:5173' , 'https://greencart-frontend-one-lyart.vercel.app'
+, 'https://greencart-frontend-git-main-pratikshahatkars-projects.vercel.app']
 //Middlerware configuration
 app.use(express.json()) // all the req pass through json 
 app.use(cookieParser())
