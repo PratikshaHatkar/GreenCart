@@ -19,10 +19,10 @@ import razorpayRouter from "./routes/razorpayRoute.js";
 import { v2 as cloudinary } from 'cloudinary';
 
 //razorpay
-dotenv.config({ path:  './server/.env' });
+// dotenv.config({ path:  './server/.env' });
 
 
-// dotenv.config();
+dotenv.config();
 
 const app = express()
 const port = process.env.PORT || 4000
@@ -60,3 +60,5 @@ app.use("/api/v1" , razorpayRouter)
 app.listen(port , ()=>{
     console.log(`Server is running on http://localhost:${port}`)
 })
+
+export default app;
